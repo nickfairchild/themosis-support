@@ -1,0 +1,27 @@
+{
+  "name": "nickfairchild/themosis-support",
+  "description": "Support package for Themosis.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nick Fairchild",
+      "email": "nick.fairchild@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.4"
+  },
+  "autoload" : {
+    "psr-4": {
+      "NickFairchild\\Support\\": ""
+    },
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
